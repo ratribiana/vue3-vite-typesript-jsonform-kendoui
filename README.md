@@ -1,6 +1,14 @@
 # Vue3 + Vite + JSONForm + KendoUI + Pinia Exam
 
 Vue3 + Vite + JSONForm + KendoUI + Pinia Exam
+<br/>
+To check the code required for the exam: go to > src > views > profile >Profile.vue
+<br/>
+or go directly to the component: > src > forms > UpdateProfileForm.vue
+<br/>
+To Check the code for renderer: > src > components > renderers
+
+Since a week is too long to finish the task, I added some other parts that will showcase my skills when it comes to Vue JS. I added a mockup/fake API to login and use a public API as well.
 
 ## Comes with
 
