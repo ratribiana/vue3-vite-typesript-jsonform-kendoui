@@ -1,0 +1,58 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Basic Information",
+      "elements": [
+        {
+          "type": "HorizontalLayout",
+          "elements": [
+            {
+              "type": "Control",
+              "label": "First Name",
+              "scope": "#/properties/firstName"
+            },
+            {
+              "type": "Control",
+              "label": "Last Name",
+              "scope": "#/properties/lastName"
+            },
+            {
+              "type": "Control",
+              "label": "Birthday",
+              "scope": "#/properties/birthDate"
+            },
+            {
+              "type": "Control",
+              "label": "Age",
+              "scope": "#/properties/age",        
+              "rule": {
+                  "effect": "HIDE",
+                  "condition": {}
+              }
+            },
+            {
+              "type": "Control",
+              "label": "Email",
+              "scope": "#/properties/email",
+              "rule": {
+                "effect": "HIDE",
+                 "condition": { 
+                    "scope": "#/properties/age",
+                    "schema": { 
+                      "maximum": 18 
+                    } 
+                  }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "options": {
+    "variant": "stepper",
+    "showNavButtons": true
+  }
+}
