@@ -111,3 +111,10 @@ yarn test:unit
 ```sh
 yarn test:e2e:dev
 ```
+
+## To Login, use this credentials
+
+```sh
+admin@demo.com
+admindemo
+```
