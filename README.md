@@ -1,9 +1,11 @@
-# Vue3 Vite Pinia Exam
+# Vue3 + Vite + JSONForm + KendoUI + Pinia Exam
 
-Vue3 + Vite + Pinia + Vue router
+Vue3 + Vite + JSONForm + KendoUI + Pinia Exam
 
 ## Comes with
 
+- [JSONForms](https://jsonforms.io/) JSON Schema based approach for creating forms.
+- [Kendo UI](https://www.telerik.com/kendo-vue-ui) Comprehensive Vue UI Component Library
 - [Vue Router](https://router.vuejs.org) for routing
 - [Pinia](https://pinia.vuejs.org) for state management
 - [Google Analytics](https://github.com/MatteoGabriele/vue-gtag) for analytics
@@ -19,6 +21,8 @@ Vue3 + Vite + Pinia + Vue router
 
 ## Features
 
+- Used JsonForms for writing complex forms using less code
+- Created Custom Renderer with Kendo UI
 - Used Vite for frontend tooling
 - Highly performant and flexible
 - Tested with some Unit and E2E tests
@@ -47,11 +51,27 @@ This Frontend is actively tested with and recommends using Node 20.10.x
 ## ⚒ How to Install
 
 ```bash
-$ cd frontend
-$ yarn install or npm install
+$ cd vue3-vite-typesript-jsonform-kendoui
+$ yarn install
 ```
 
-Make sure to copy the `.env.example` to `.env.development` or `.env.local` and fill in the values.
+Make sure to have `.env.development` and fill in the values.
+
+```sh
+VITE_APP_NAME="Vue3 + Vite + JSONForm + KendoUI + Pinia Exam"
+VITE_GA_MEASUREMENT_ID=G-KYHSG71EHT
+VITE_APP_URL=http://localhost:8080
+VITE_API_URL=http://localhost:8080/
+VITE_API_DUMMY_BASE_URL=https://dummyjson.com
+VITE_API_DUMMY_MEDIA_URL=https://cdn-dev.heros.xyz
+NODE_ENV=development
+```
+
+Install KendoUI License Key
+
+```sh
+npx kendo-ui-license activate
+```
 
 ### Compile and Hot-Reload for Development
 
