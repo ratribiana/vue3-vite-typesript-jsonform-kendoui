@@ -58,8 +58,15 @@ This Frontend is actively tested with and recommends using Node 20.10.x
 
 ## ⚒ How to Install
 
+Clone the repo:
+
 ```bash
+$ git clone --depth 1 git@github.com:ratribiana/vue3-vite-typesript-jsonform-kendoui.git
 $ cd vue3-vite-typesript-jsonform-kendoui
+```
+
+Install dependencies:
+```bash
 $ yarn install
 ```
 
